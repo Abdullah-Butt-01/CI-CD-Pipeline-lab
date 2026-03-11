@@ -6,8 +6,7 @@ on:
       - main
     paths:
       - 'Project1-Automatic-Docker-Build-Pipeline/**' #Worflow only runs if files under this folder change
-    paths-ignore:
-      - 'Project1-Automatic-Docker-Build-Pipeline/docs/**'
+      - '!Project1-Automatic-Docker-Build-Pipeline/docs/**'
 
 jobs:
 
