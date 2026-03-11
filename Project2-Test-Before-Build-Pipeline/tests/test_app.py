@@ -13,4 +13,4 @@ def test_home():
 
     assert response.status_code == 200
 
-# adding comment to check is paths-ignore worked
+# 2. adding comment to check is paths-ignore worked
