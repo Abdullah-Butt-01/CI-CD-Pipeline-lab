@@ -4,6 +4,8 @@ on: # when to trigger workflow
   push:
     paths:
       - 'Project2-Test-Before-Build-Pipeline/**'
+    paths-ignore:
+      - 'Project2-Test-Before-Build-Pipeline/docs/**'
 
 jobs:
 
