@@ -6,7 +6,7 @@ on:
       - 'v*'
     paths:
       - 'Project3-Versioned-Release-Pipeline/**'
-      - '!Project2-Test-Before-Build-Pipeline/docs/**'
+      - '!Project3-Versioned-Release--Pipeline/docs/**'
 
 jobs:
 
