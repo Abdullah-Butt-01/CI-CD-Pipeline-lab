@@ -4,6 +4,9 @@ on:
   push:
     tags:
       - 'v*'
+    paths:
+      - 'Project3-Versioned-Release-Pipeline/**'
+      - '!Project3-Versioned-Release-Pipeline/docs/**'
 
 jobs:
 
