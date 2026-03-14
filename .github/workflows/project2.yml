@@ -2,6 +2,8 @@ name: Test Before Docker Build
 
 on: # when to trigger workflow
   push:
+    branches:
+      - main
     paths:
       - 'Project2-Test-Before-Build-Pipeline/**'
       - '!Project2-Test-Before-Build-Pipeline/docs/**' #negation
