@@ -28,8 +28,8 @@ jobs:
 
     - name: Build Docker Image
       run: |
-        docker build -t ${{ secrets.DOCKER_USERNAME }}/versioned-app:$TAG ./project3-versioned-release
-        docker build -t ${{ secrets.DOCKER_USERNAME }}/versioned-app:latest ./project3-versioned-release
+        docker build -t ${{ secrets.DOCKER_USERNAME }}/versioned-app:$TAG ./Project3-Versioned-Release-Pipeline
+        docker build -t ${{ secrets.DOCKER_USERNAME }}/versioned-app:latest ./Project3-Versioned-Release-Pipeline
 
     - name: Push Docker Images
       run: |
