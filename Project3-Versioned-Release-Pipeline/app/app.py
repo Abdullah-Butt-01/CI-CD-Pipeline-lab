@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Versioned CI/CD Pipeline Running 🚀"
+    return "Versioned CI/CD Pipeline Running 🚀 tag 1.1, updated"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
